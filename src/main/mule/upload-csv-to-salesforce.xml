@@ -18,7 +18,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<fixed-frequency frequency="20000" />
 			</scheduling-strategy>
 		</file:listener>
-		<ee:transform doc:name="Transform Message new" doc:id="fff5f082-06d9-4809-ae54-e65a5f254c82" >
+		<ee:transform doc:name="Transform Message" doc:id="fff5f082-06d9-4809-ae54-e65a5f254c82" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
